@@ -7,6 +7,5 @@
 </div>
 <?php include('includes/footer.php'); ?>
 
-<!-- Inclure le CSS et JS spécifiques à cette page -->
 <link rel="stylesheet" href="assets/css/index.css">
 <script src="js/index.js"></script>

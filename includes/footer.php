@@ -1,4 +1,3 @@
-<!-- footer.php -->
 <footer>
     <div class="footer-container">
         <p>&copy; <?php echo date("Y"); ?> Mon Portfolio - Tous droits réservés</p>
@@ -12,6 +11,5 @@
         </div>
     </div>
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script> <!-- Optionnel pour icônes font awesome -->
 </body>
 </html>

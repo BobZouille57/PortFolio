@@ -1,4 +1,3 @@
-<!-- navbar.php -->
 <nav>
     <ul class="navbar">
         <li><a href="index.php">Accueil</a></li>

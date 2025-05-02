@@ -58,7 +58,6 @@
     background-color: #0056b3;
 }
 
-/* Animation d’apparition */
 @keyframes fadeIn {
     from {
         opacity: 0;

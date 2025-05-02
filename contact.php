@@ -5,7 +5,6 @@
     <h2>Contactez-moi</h2>
     
     <?php
-    // Afficher le message de confirmation ou d'erreur
     if (isset($_SESSION['contact_message'])): ?>
         <p class="contact-feedback">
             <?= $_SESSION['contact_message']; ?>
@@ -29,6 +28,5 @@
 
 <?php include('includes/footer.php'); ?>
 
-<!-- Inclure le CSS spécifique à la page contact -->
 <link rel="stylesheet" href="assets/css/contact.css">
 <script src="assets/js/contact.js"></script>

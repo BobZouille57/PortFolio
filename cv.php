@@ -18,4 +18,4 @@
 </div>
 
 <?php include("includes/footer.php"); ?>
-<script src="assets/js/cv.js"></script>
+<script src="js/cv.js"></script>

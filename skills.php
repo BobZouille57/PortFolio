@@ -1,4 +1,5 @@
 <?php include('includes/header.php'); ?>
+<?php include('includes/navbar.php'); ?>
 <div class="skills-container">
     <h2>Mes Compétences</h2>
     <div class="skill">

@@ -1,4 +1,5 @@
 <?php include('includes/header.php'); ?>
+<?php include('includes/navbar.php'); ?>
 <div class="portfolio-container">
     <h2>Mon Portfolio</h2>
     <p>Voici un aperçu de mes projets. Clique sur chaque projet pour en savoir plus.</p>

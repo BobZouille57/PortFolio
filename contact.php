@@ -1,4 +1,5 @@
 <?php include('includes/header.php'); ?>
+<?php include('includes/navbar.php'); ?>
 <div class="contact-container">
     <h2>Contactez-moi</h2>
     <form action="send_mail.php" method="POST">

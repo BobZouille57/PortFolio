@@ -1,4 +1,5 @@
 <?php include('includes/header.php'); ?>
+<?php include('includes/navbar.php'); ?>
 <div class="projects-container">
     <h2>Mes Projets</h2>
     <div class="project">

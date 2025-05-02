@@ -1,4 +1,5 @@
 <?php include('includes/header.php'); ?>
+<?php include('includes/navbar.php'); ?>
 <div class="about-container">
     <h2>À propos de moi</h2>
     <p>Je suis un développeur passionné avec une expérience en développement web et mobile...</p>

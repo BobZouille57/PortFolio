@@ -35,3 +35,18 @@
 .contact-container form button:hover {
     background-color: #555;
 }
+
+.contact-feedback {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.contact-feedback:before {
+    content: "📩 ";
+}
+.contact-feedback:empty {
+    display: none;
+}
+

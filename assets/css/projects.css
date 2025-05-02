@@ -43,3 +43,72 @@
     border-radius: 5px;
     margin-top: 20px;
 }
+
+/* projects.css */
+.projects-container {
+    padding: 20px;
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.portfolio-item {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+    border: 2px solid #333;
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+.carousel-prev:hover, .carousel-next:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+

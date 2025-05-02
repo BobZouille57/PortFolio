@@ -101,9 +101,12 @@ h2 {
 }
 
 .portfolio-img {
-    width: 100%;
+    width: 300px;
     height: auto;
+    border: 3px solid #333;
     border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 
 .portfolio-item h3 {

@@ -12,7 +12,7 @@
         <iframe src="assets/pdf/mon-cv.pdf" frameborder="0"></iframe>
     </div>
 
-    <a href="assets/pdf/mon-cv.pdf" class="btn-download" download>
+    <a href="images/CV_PIERRON_Clement.pdf" class="btn-download" download>
         ⬇️ Télécharger le CV en PDF
     </a>
 </div>

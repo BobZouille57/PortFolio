@@ -1,0 +1,42 @@
+/* portfolio.css */
+.portfolio-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.portfolio-item {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.portfolio-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.portfolio-item h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.portfolio-item .btn {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}

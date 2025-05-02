@@ -1,0 +1,41 @@
+/* projects.css */
+.projects-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.project {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.project p {
+    font-size: 1rem;
+    margin-top: 15px;
+    color: #666;
+}
+
+.project .btn {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

@@ -10,6 +10,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Récupération des données envoyées par le formulaire
     $user_name  = htmlspecialchars($_POST['name']);
     $user_email = htmlspecialchars($_POST['email']);
     $user_message = htmlspecialchars($_POST['message']);
@@ -27,16 +28,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Port       = 587;
 
         // Expéditeur et destinataire
-        $mail->setFrom($user_email, $user_name);
+        $mail->setFrom('Pierron.clement57@gmail.com', 'Formulaire Portfolio');
+        $mail->addReplyTo($user_email, $user_name);
         $mail->addAddress('Pierron.clement57@gmail.com'); // Ton adresse pour recevoir le message
 
         // Contenu de l'e-mail
         $mail->Subject = '📬 Nouveau message via le portfolio';
         $mail->Body    = "Nom : $user_name\nEmail : $user_email\n\nMessage :\n$user_message";
 
+        // Envoi de l'email
         $mail->send();
+
+        // Message de succès
         $_SESSION['contact_message'] = "✅ Message envoyé avec succès !";
     } catch (Exception $e) {
+        // En cas d'erreur, afficher l'erreur
         $_SESSION['contact_message'] = "❌ Échec de l'envoi : {$mail->ErrorInfo}";
     }
 

@@ -6,6 +6,6 @@
         <li><a href="projects.php">Projets</a></li>
         <li><a href="skills.php">Compétences</a></li>
         <li><a href="contact.php">Contact</a></li>
-        <li><a href="portfolio.php">Portfolio</a></li>
+        <li><a href="cv.php">CV</a></li>
     </ul>
 </nav>

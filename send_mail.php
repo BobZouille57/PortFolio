@@ -27,8 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Port       = 587;
 
         // Expéditeur et destinataire
-        $mail->setFrom('Pierron.clement57@gmail.com', 'Formulaire Portfolio');
-        $mail->addReplyTo($user_email, $user_name);
+        $mail->setFrom($user_email, $user_name);
         $mail->addAddress('Pierron.clement57@gmail.com'); // Ton adresse pour recevoir le message
 
         // Contenu de l'e-mail
@@ -40,8 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } catch (Exception $e) {
         $_SESSION['contact_message'] = "❌ Échec de l'envoi : {$mail->ErrorInfo}";
     }
-    $mail->SMTPDebug = 2; // Affiche le debug pour avoir plus d'infos
-    $mail->Debugoutput = 'html'; 
+
     // Redirection vers la page de contact
     header("Location: contact.php");
     exit;

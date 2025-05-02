@@ -14,3 +14,13 @@ $(document).ready(function() {
         }
     });
 });
+
+window.onload = function() {
+    const message = document.querySelector('.contact-feedback');
+    if (message) {
+        setTimeout(() => {
+            message.style.display = 'none';
+        }, 3000);
+    }
+};
+

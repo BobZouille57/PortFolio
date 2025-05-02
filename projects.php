@@ -2,12 +2,24 @@
 <?php include('includes/navbar.php'); ?>
 <div class="projects-container">
     <h2>Mes Projets</h2>
-    <div class="project">
-        <img src="images/photo2.jpg" alt="Project 1" class="project-img">
-        <p>Description du projet 1...</p>
-        <a href="https://demo-projet1.com" class="btn">Voir le projet</a>
+    <div class="portfolio-item" id="helpdesk">
+        <img src="assets/img/helpdesk.png" class="portfolio-img" alt="Capture HelpDesk">
+        <h3>HelpDesk</h3>
+        <p>Application web de gestion de support client permettant de créer, consulter et traiter des tickets d’assistance. Possibilité également de modération via un compte administrateur qui permet de supprimer les messages, modifier le statut des tickets, de les fermer.</p>
+        
+        <ul class="tech-list">
+            <li>💻 PHP (back-end)</li>
+            <li>🎨 HTML / CSS (interface)</li>
+            <li>📩 PHPMailer (notification email)</li>
+            <li>🗄️ MySQL (base de données)</li>
+            <li>🚀 VPS (hébergement)</li>
+        </ul>
+
+        <div class="project-links">
+            <a href="https://github.com/ton-utilisateur/helpdesk" target="_blank" class="btn btn-github">📂 Voir sur GitHub</a>
+            <a href="http://ton-vps/helpdesk" target="_blank" class="btn btn-demo">🌐 Voir la démo</a>
+        </div>
     </div>
-    <!-- Ajoute d'autres projets ici -->
 </div>
 <?php include('includes/footer.php'); ?>
 

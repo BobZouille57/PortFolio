@@ -44,19 +44,20 @@
 
 .carousel-container {
     position: relative;
-    width: 80%;
+    width: 100%;
+    max-width: 300px;
     margin: 0 auto;
-    overflow: hidden; /* Cache la partie des slides qui dépassent */
+    overflow: hidden;
 }
 
 .carousel {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%; /* Prend toute la largeur disponible */
+    width: 100%;
 }
 
 .portfolio-item {
-    flex: 0 0 100%; /* Chaque élément prend 100% de la largeur du carousel */
+    flex: 0 0 100%;
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
@@ -92,6 +93,7 @@
     border: none;
     padding: 10px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .carousel-prev {

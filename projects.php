@@ -4,7 +4,7 @@
     <h2>Mes Projets</h2>
     <div class="carousel-container">
         <div class="carousel">
-            <div class="portfolio-item" id="helpdesk">
+            <div class="portfolio-item">
                 <img src="images/Projet1.png" class="portfolio-img" alt="Capture HelpDesk">
                 <h3>HelpDesk</h3>
                 <p>Application web de gestion de support client permettant de créer, consulter et traiter des tickets d’assistance...</p>
@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-item" id="hoho">
+            <div class="portfolio-item">
                 <img src="images/Projet1.png" class="portfolio-img" alt="Capture Hoho">
                 <h3>Hoho</h3>
                 <p>Application web de gestion de support client permettant de créer, consulter et traiter des tickets d’assistance...</p>
@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-item" id="haha">
+            <div class="portfolio-item">
                 <img src="images/Projet1.png" class="portfolio-img" alt="Capture Haha">
                 <h3>Haha</h3>
                 <p>Application web de gestion de support client permettant de créer, consulter et traiter des tickets d’assistance...</p>

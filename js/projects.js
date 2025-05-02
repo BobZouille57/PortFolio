@@ -1,25 +1,38 @@
-$(document).ready(function() {
-    var currentIndex = 0;
-    var totalSlides = $('.portfolio-item').length;
+document.addEventListener("DOMContentLoaded", function () {
+    const prevButton = document.querySelector('.carousel-prev');
+    const nextButton = document.querySelector('.carousel-next');
+    const carousel = document.querySelector('.carousel');
+    let currentIndex = 0;
+    const items = document.querySelectorAll('.portfolio-item');
+    const totalItems = items.length;
 
-    function showSlide(index) {
-        var offset = -index * 100 + '%';
-        $('.carousel').css('transform', 'translateX(' + offset + ')');
+    // Fonction pour déplacer la slide vers la gauche
+    function moveToNextSlide() {
+        if (currentIndex < totalItems - 1) {
+            currentIndex++;
+        } else {
+            currentIndex = 0; // Retour au début
+        }
+        updateCarouselPosition();
     }
 
-    $('.carousel-next').click(function() {
-        currentIndex = (currentIndex + 1) % totalSlides;
-        showSlide(currentIndex);
-    });
+    // Fonction pour déplacer la slide vers la droite
+    function moveToPrevSlide() {
+        if (currentIndex > 0) {
+            currentIndex--;
+        } else {
+            currentIndex = totalItems - 1; // Aller à la dernière
+        }
+        updateCarouselPosition();
+    }
 
-    $('.carousel-prev').click(function() {
-        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-        showSlide(currentIndex);
-    });
+    // Fonction pour mettre à jour la position du carrousel
+    function updateCarouselPosition() {
+        const newTransformValue = -currentIndex * 100; // Déplace en fonction de l'index
+        carousel.style.transform = `translateX(${newTransformValue}%)`;
+    }
 
-    // Optionally, add automatic slide transition every 3 seconds
-    setInterval(function() {
-        currentIndex = (currentIndex + 1) % totalSlides;
-        showSlide(currentIndex);
-    }, 3000); // Change slide every 3 seconds
+    // Événements pour les boutons de navigation
+    prevButton.addEventListener('click', moveToPrevSlide);
+    nextButton.addEventListener('click', moveToNextSlide);
 });

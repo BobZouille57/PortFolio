@@ -3,7 +3,7 @@
 <div class="about-container">
     <h2>À propos de moi</h2>
     <p>Je suis un développeur passionné avec une expérience en développement web et mobile...</p>
-    <img src="images/photo1.jpg" alt="Moi" class="profile-img">
+    <img src="images/moi.jpg" alt="Moi" class="profile-img">
 </div>
 <?php include('includes/footer.php'); ?>
 

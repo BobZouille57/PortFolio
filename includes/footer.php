@@ -4,10 +4,10 @@
         <p>&copy; <?php echo date("Y"); ?> Mon Portfolio - Tous droits réservés</p>
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/ton-profile" target="_blank">
-                <img src="images/linkedin-icon.png" alt="LinkedIn">
+                <img src="images/Linkedin-icon.png" alt="LinkedIn">
             </a>
             <a href="https://github.com/ton-profile" target="_blank">
-                <img src="images/github-icon.png" alt="GitHub">
+                <img src="images/Github-icon.png" alt="GitHub">
             </a>
         </div>
     </div>

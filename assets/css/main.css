@@ -9,6 +9,7 @@ html, body {
     font-family: 'Arial', sans-serif;
     color: #333;
     line-height: 1.6;
+    height: 100%;
 }
 
 /* --- GLOBAL STYLES --- */
@@ -16,6 +17,8 @@ body {
     background-color: #f4f4f4;
     font-size: 16px;
     color: #555;
+    display: flex;
+    flex-direction: column;
 }
 
 /* --- HEADER --- */
@@ -71,6 +74,7 @@ nav {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+    flex: 1;
 }
 
 h2 {
@@ -165,8 +169,8 @@ footer {
     color: white;
     padding: 20px 0;
     text-align: center;
+    margin-top: auto;
 }
-
 footer p {
     font-size: 1rem;
     margin: 0;

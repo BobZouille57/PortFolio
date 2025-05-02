@@ -9,10 +9,10 @@
     <button id="toggle-cv" class="btn-toggle">👁️ Afficher / Masquer le CV</button>
 
     <div class="cv-viewer" style="display: none;">
-        <iframe src="assets/pdf/CV_PIERRON_Clement.pdf" frameborder="0"></iframe>
+        <iframe src="assets/pdf/cv.pdf" frameborder="0"></iframe>
     </div>
 
-    <a href="assets/pdf/CV_PIERRON_Clement.pdf" class="btn-download" download>
+    <a href="assets/pdf/cv.pdf" class="btn-download" download>
         ⬇️ Télécharger le CV en PDF
     </a>
 </div>

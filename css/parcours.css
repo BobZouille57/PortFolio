@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.parcours {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.parcours h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-item {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 15px 0;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.year {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.description {
+    width: 80%;
+}
+
+.skills {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.skill-bars {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skill-bar {
+    margin: 15px 0;
+    position: relative;
+}
+
+.skill-name {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background-color: #007BFF;
+    height: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}

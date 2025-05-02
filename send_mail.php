@@ -37,6 +37,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $mail->send();
         $_SESSION['contact_message'] = "✅ Message envoyé avec succès !";
+        $mail->SMTPDebug = 2; // Affiche le debug pour avoir plus d'infos
+$mail->Debugoutput = 'html'; 
     } catch (Exception $e) {
         $_SESSION['contact_message'] = "❌ Échec de l'envoi : {$mail->ErrorInfo}";
     }

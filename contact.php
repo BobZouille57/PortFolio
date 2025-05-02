@@ -2,7 +2,7 @@
 <?php include('includes/navbar.php'); ?>
 <div class="contact-container">
     <h2>Contactez-moi</h2>
-        <?php if (isset($_SESSION['contact_message'])): ?>
+    <?php if (isset($_SESSION['contact_message'])): ?>
         <p class="contact-feedback">
             <?= $_SESSION['contact_message']; unset($_SESSION['contact_message']); ?>
         </p>

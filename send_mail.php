@@ -27,7 +27,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Port       = 587;
 
         // Expéditeur et destinataire
-        $mail->setFrom($user_email, $user_name);
+        $mail->setFrom('Pierron.clement57@gmail.com', 'Formulaire Portfolio');
+        $mail->addReplyTo($user_email, $user_name);
         $mail->addAddress('Pierron.clement57@gmail.com'); // Ton adresse pour recevoir le message
 
         // Contenu de l'e-mail

@@ -14,11 +14,15 @@
     border-radius: 8px;
 }
 
-.project img {
-    width: 100%;
+.portfolio-img {
+    width: 300px;
     height: auto;
+    border: 3px solid #333;
     border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
+
 
 .project h2 {
     font-size: 2rem;

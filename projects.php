@@ -16,8 +16,8 @@
         </ul>
 
         <div class="project-links">
-            <a href="https://github.com/ton-utilisateur/helpdesk" target="_blank" class="btn btn-github">📂 Voir sur GitHub</a>
-            <a href="http://ton-vps/helpdesk" target="_blank" class="btn btn-demo">🌐 Voir la démo</a>
+            <a href="https://github.com/BobZouille57/Helpdesk" target="_blank" class="btn btn-github">📂 Voir sur GitHub</a>
+            <a href="http://helpdesk.clementpierron.fr" target="_blank" class="btn btn-demo">🌐 Voir la démo</a>
         </div>
     </div>
 </div>

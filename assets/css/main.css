@@ -48,12 +48,13 @@ nav {
     list-style-type: none;
 }
 
+
 .navbar li {
     margin: 0 20px;
 }
 
 .navbar a {
-    color: #fff;
+    color: #c7c7c7;
     text-decoration: none;
     font-size: 1.1rem;
     padding: 5px 10px;
@@ -188,6 +189,10 @@ footer .social-icons a {
 footer .social-icons img {
     width: 30px;
     height: 30px;
+}
+
+.footer-text {
+    color: #c7c7c7;
 }
 
 @media (max-width: 768px) {

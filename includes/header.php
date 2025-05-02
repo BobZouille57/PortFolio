@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="container">
-            <h1><a href="index.php">Mon Portfolio</a></h1>
+            <h1><a href="index.php">Mon PortFolio</a></h1>
             <p>Développeur Informatique</p>
         </div>
     </header>

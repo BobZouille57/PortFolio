@@ -42,10 +42,6 @@
     margin-top: 20px;
 }
 
-.projects-container {
-    padding: 20px;
-}
-
 .carousel-container {
     position: relative;
     width: 80%;
@@ -107,4 +103,27 @@
 
 .carousel-prev:hover, .carousel-next:hover {
     background: rgba(0, 0, 0, 0.7);
+}
+
+.project .tech-list {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.project .tech-list li {
+    font-size: 1rem;
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.project .tech-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+    color: #333;
 }

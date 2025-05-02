@@ -27,3 +27,25 @@ $(document).ready(function() {
         updateCarousel();
     });
 });
+
+$(document).ready(function () {
+    let currentIndex = 0;
+    const slides = $('.portfolio-item');
+    const totalSlides = slides.length;
+
+    function showSlide(index) {
+        const offset = -index * 100; // Déplace le carrousel en fonction de l'index
+        $('.carousel').css('transform', 'translateX(' + offset + '%)');
+    }
+
+    $('.carousel-next').click(function () {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        showSlide(currentIndex);
+    });
+
+    $('.carousel-prev').click(function () {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        showSlide(currentIndex);
+    });
+});
+

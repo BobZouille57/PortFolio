@@ -3,7 +3,7 @@
 <div class="projects-container">
     <h2>Mes Projets</h2>
     <div class="portfolio-item" id="helpdesk">
-        <img src="assets/img/helpdesk.png" class="portfolio-img" alt="Capture HelpDesk">
+        <img src="assets/img/Projet1.png" class="portfolio-img" alt="Capture HelpDesk">
         <h3>HelpDesk</h3>
         <p>Application web de gestion de support client permettant de créer, consulter et traiter des tickets d’assistance. Possibilité également de modération via un compte administrateur qui permet de supprimer les messages, modifier le statut des tickets, de les fermer.</p>
         

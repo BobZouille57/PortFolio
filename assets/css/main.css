@@ -34,7 +34,6 @@ header p {
     font-size: 1.2rem;
 }
 
-/* --- NAVBAR --- */
 nav {
     background-color: #222;
     position: sticky;
@@ -70,6 +69,7 @@ nav {
     margin: 0 auto;
     padding: 20px;
     flex: 1;
+    color: #c7c7c7;
 }
 
 h1 a {

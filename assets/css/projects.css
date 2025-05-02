@@ -46,17 +46,17 @@
     position: relative;
     width: 80%;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: hidden; /* Cache la partie des slides qui dépassent */
 }
 
 .carousel {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%;
+    width: 100%; /* Prend toute la largeur disponible */
 }
 
 .portfolio-item {
-    flex: 0 0 100%;
+    flex: 0 0 100%; /* Chaque élément prend 100% de la largeur du carousel */
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
@@ -127,44 +127,4 @@
     left: 0;
     font-size: 1.2rem;
     color: #333;
-}
-
-/* Carrousel */
-.carousel-container {
-    width: 100%;
-}
-
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease;
-    width: 100%;
-}
-
-.portfolio-item {
-    flex: 0 0 100%;
-    box-sizing: border-box;
-}
-
-.carousel-prev, .carousel-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 30px;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.carousel-prev {
-    left: 10px;
-}
-
-.carousel-next {
-    right: 10px;
-}
-
-.carousel-prev:hover, .carousel-next:hover {
-    background: rgba(0, 0, 0, 0.7);
 }

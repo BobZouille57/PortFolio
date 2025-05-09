@@ -8,7 +8,7 @@
     </div>
 
     <div class="journey-block">
-        <h3>Mon Parcours</h3>
+        <h3>Mon Parcours informatique</h3>
         <div class="timeline">
             <div class="timeline-item">
                 <div class="year">2014 - 2018</div>

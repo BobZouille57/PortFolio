@@ -90,7 +90,7 @@
         <button class="carousel-prev">❮</button>
         <button class="carousel-next">❯</button>
     </div>
-    <div class="projects-note">
+    <div class="projects-note hidden">
         <p>💡 Bien sûr, ceci n’est qu’un petit aperçu des projets réalisés dans ma (jeune mais passionnée) carrière d’informaticien... 😉</p>
     </div>
 </div>

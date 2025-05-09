@@ -90,6 +90,9 @@
         <button class="carousel-prev">❮</button>
         <button class="carousel-next">❯</button>
     </div>
+    <div class="projects-note">
+        <p>💡 Bien sûr, ceci n’est qu’un petit aperçu des projets réalisés dans ma (jeune mais passionnée) carrière d’informaticien... 😉</p>
+    </div>
 </div>
 <?php include('includes/footer.php'); ?>
 

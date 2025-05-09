@@ -36,7 +36,7 @@ body {
     display: inline-block;
     margin: 10px;
     padding: 12px 25px;
-    background-color: #3498db;
+    background-color: #333;
     color: white;
     font-weight: bold;
     border: none;
@@ -46,16 +46,16 @@ body {
 }
 
 .primary-btn {
-    background-color: #2ecc71;
+    background-color: #333;
 }
 
 .btn:hover {
-    background-color: #2980b9;
+    background-color: #222;
     transform: scale(1.05);
 }
 
 .primary-btn:hover {
-    background-color: #27ae60;
+    background-color: #222;
 }
 
 .summary-item {

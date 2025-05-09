@@ -26,3 +26,21 @@ $(document).ready(function () {
         revealOnScroll();
     });
 });
+
+let lastScrollTop = 0;
+
+$(window).on("scroll", function () {
+    let st = $(this).scrollTop();
+
+    if (st > lastScrollTop) {
+        // On descend
+        $(".intro-block").slideUp();
+        $(".conclusion-block").slideDown();
+    } else {
+        // On remonte
+        $(".intro-block").slideDown();
+        $(".conclusion-block").slideUp();
+    }
+
+    lastScrollTop = st;
+});

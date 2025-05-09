@@ -1,5 +1,6 @@
 <?php include('includes/header.php'); ?>
 <?php include('includes/navbar.php'); ?>
+<link rel="stylesheet" href="assets/css/index.css">
 
 <main class="home-container">
     <section class="intro">

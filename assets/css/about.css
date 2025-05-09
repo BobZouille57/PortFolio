@@ -6,6 +6,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     max-width: 900px;
     margin: 60px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .about-container h2 {
@@ -14,27 +15,37 @@
     margin-bottom: 20px;
 }
 
+.intro-block {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .intro-text {
     font-size: 1.2rem;
     color: #555;
-    margin-bottom: 30px;
     line-height: 1.8;
+    margin-bottom: 20px;
     opacity: 0;
 }
 
-.journey-text {
-    font-size: 1.2rem;
-    color: #555;
-    margin-bottom: 30px;
-    line-height: 1.8;
-    opacity: 0;
+.journey-block {
+    margin-bottom: 40px;
+}
+
+.journey-block h3 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
 }
 
 .timeline {
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
     gap: 20px;
+    opacity: 0;
 }
 
 .timeline-item {
@@ -42,7 +53,6 @@
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
-    opacity: 0;
 }
 
 .timeline-item .year {
@@ -54,6 +64,14 @@
 .timeline-item .school {
     font-size: 1.1rem;
     color: #555;
+}
+
+.conclusion-block {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
 }
 
 .profile-img {
@@ -71,11 +89,7 @@
         margin: 30px 10px;
     }
 
-    .intro-text, .journey-text {
+    .intro-text, .timeline-item .school {
         font-size: 1rem;
-    }
-    
-    .timeline-item .year {
-        font-size: 1.1rem;
     }
 }

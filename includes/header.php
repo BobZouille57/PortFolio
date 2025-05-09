@@ -7,6 +7,15 @@
     <title>Mon Portfolio</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YSV2HSRLME"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-YSV2HSRLME');
+    </script>
 </head>
 <body>
     <header>

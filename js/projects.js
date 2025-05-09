@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (currentIndex > 0) {
             currentIndex--;
         } else {
-            currentIndex = totalItems - 1; 
+            currentIndex = totalItems - 1;
         }
         updateCarouselPosition();
     }

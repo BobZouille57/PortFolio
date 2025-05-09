@@ -32,20 +32,3 @@ document.addEventListener("DOMContentLoaded", function () {
     prevButton.addEventListener('click', moveToPrevSlide);
     nextButton.addEventListener('click', moveToNextSlide);
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-    const note = document.querySelector('.projects-note');
-
-    function checkVisibility() {
-        const rect = note.getBoundingClientRect();
-        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-
-        if (rect.top <= windowHeight - 100) {
-            note.classList.add('animate');
-            window.removeEventListener('scroll', checkVisibility);
-        }
-    }
-
-    window.addEventListener('scroll', checkVisibility);
-    checkVisibility();
-});

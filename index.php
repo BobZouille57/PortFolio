@@ -12,24 +12,34 @@
     <section class="summary">
         <h2>Sommaire</h2>
         <div class="summary-item">
-            <a href="about.php" class="btn">📘 À propos</a>
-            <p class="desc">Présentation personnelle.</p>
+            <div class="btn-container">
+                <a href="about.php" class="btn">📘 À propos</a>
+                <p class="desc">Présentation personnelle et parcours.</p>
+            </div>
         </div>
         <div class="summary-item">
-            <a href="projects.php" class="btn">📁 Projets</a>
-            <p class="desc">Exemples de réalisations en développement.</p>
+            <div class="btn-container">
+                <a href="projects.php" class="btn">📁 Projets</a>
+                <p class="desc">Exemples de réalisations en développement.</p>
+            </div>
         </div>
         <div class="summary-item">
-            <a href="skills.php" class="btn">🛠️ Compétences</a>
-            <p class="desc">Technologies et langages maîtrisés.</p>
+            <div class="btn-container">
+                <a href="skills.php" class="btn">🛠️ Compétences</a>
+                <p class="desc">Technologies et langages maîtrisés.</p>
+            </div>
         </div>
         <div class="summary-item">
-            <a href="contact.php" class="btn">📩 Contact</a>
-            <p class="desc">Formulaire pour me joindre.</p>
+            <div class="btn-container">
+                <a href="contact.php" class="btn">📩 Contact</a>
+                <p class="desc">Formulaire ou informations pour me joindre.</p>
+            </div>
         </div>
         <div class="summary-item">
-            <a href="cv.php" class="btn">📄 CV</a>
-            <p class="desc">Mon CV à consulter ou télécharger.</p>
+            <div class="btn-container">
+                <a href="cv.php" class="btn">📄 CV</a>
+                <p class="desc">Mon CV à consulter ou télécharger.</p>
+            </div>
         </div>
     </section>
 </main>

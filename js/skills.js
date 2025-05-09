@@ -1,6 +1,5 @@
-$(document).ready(function() {
-    $('.progress').each(function() {
-        var width = $(this).css('width');
-        $(this).animate({ width: width }, 2000);
+$(document).ready(function () {
+    $('.skill').each(function (index) {
+        $(this).css('animation-delay', (index * 0.2) + 's');
     });
 });

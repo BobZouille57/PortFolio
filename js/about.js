@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.intro-text').fadeIn(1500);
-    
+
     $('.journey-block').delay(1000).fadeIn(1500);
 
     $('.timeline-item').each(function(index) {

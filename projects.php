@@ -53,6 +53,36 @@
                     <a href="https://github.com/BobZouille57/Mini-Projet" target="_blank" class="btn btn-github">📂 Voir sur GitHub</a>
                 </div>
             </div>
+
+            <div class="portfolio-item" id="miniprojet">
+                <img src="images/Projet3.png" class="portfolio-img" alt="Capture Mini-Projet">
+                <h3>Mini-Projet papapapapa- Gestion d'un Restaurant Fictif</h3>
+                <p>Application web développée en PHP permettant la gestion des usagers d’un restaurant fictif avec une interface administrateur et utilisateur. Elle permet de modifier ou supprimer des usagers, gérer les cautions, et consulter les tarifs en vigueur.</p>
+                <ul class="tech-list">
+                    <li>💻 PHP (back-end)</li>
+                    <li>🎨 HTML / CSS (interface)</li>
+                    <li>🗄️ MySQL (base de données)</li>
+                    <li>🔐 Interface utilisateur / administration</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/BobZouille57/Mini-Projet" target="_blank" class="btn btn-github">📂 Voir sur GitHub</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item" id="miniprojet">
+                <img src="images/Projet3.png" class="portfolio-img" alt="Capture Mini-Projet">
+                <h3>Mini-Projetblalbla - Gestion d'un Restaurant Fictif</h3>
+                <p>Application web développée en PHP permettant la gestion des usagers d’un restaurant fictif avec une interface administrateur et utilisateur. Elle permet de modifier ou supprimer des usagers, gérer les cautions, et consulter les tarifs en vigueur.</p>
+                <ul class="tech-list">
+                    <li>💻 PHP (back-end)</li>
+                    <li>🎨 HTML / CSS (interface)</li>
+                    <li>🗄️ MySQL (base de données)</li>
+                    <li>🔐 Interface utilisateur / administration</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/BobZouille57/Mini-Projet" target="_blank" class="btn btn-github">📂 Voir sur GitHub</a>
+                </div>
+            </div>
         </div>
         <button class="carousel-prev">❮</button>
         <button class="carousel-next">❯</button>

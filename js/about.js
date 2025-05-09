@@ -1,21 +1,28 @@
 $(document).ready(function () {
-    function showOnlyVisibleBlock() {
-        $('.intro-block, .journey-block, .timeline-item, .conclusion-block, .profile-img').each(function () {
-            const blockTop = $(this).offset().top;
-            const blockBottom = blockTop + $(this).outerHeight();
-            const windowTop = $(window).scrollTop();
-            const windowBottom = windowTop + $(window).height();
+    function revealOnScroll() {
+        $('.reveal').each(function () {
+            const elementTop = $(this).offset().top;
+            const scrollTop = $(window).scrollTop();
+            const windowHeight = $(window).height();
 
-            if (blockTop < windowBottom && blockBottom > windowTop) {
-                // Bloc visible à l'écran
-                $(this).fadeIn(600);
-            } else {
-                // Bloc hors de l'écran
-                $(this).fadeOut(400);
+            if (scrollTop + windowHeight > elementTop + 50) {
+                $(this).animate({ opacity: 1 }, {
+                    duration: 600,
+                    step: function (now, fx) {
+                        $(this).css('transform', 'scale(' + (0.95 + (now * 0.05)) + ')');
+                    }
+                });
             }
         });
     }
 
-    $(window).on('scroll resize', showOnlyVisibleBlock);
-    showOnlyVisibleBlock(); // initial
+    $('.reveal').css({
+        opacity: 0,
+        transform: 'scale(0.95)'
+    });
+
+    revealOnScroll();
+    $(window).on('scroll', function () {
+        revealOnScroll();
+    });
 });

@@ -2,12 +2,35 @@
     text-align: center;
     padding: 40px;
     background-color: #f4f4f4;
+    border-radius: 10px;
 }
 
 .skill {
     width: 80%;
     margin: 20px auto;
     text-align: left;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skill-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill-header i {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #4CAF50;
 }
 
 .skill h3 {
@@ -15,14 +38,45 @@
     margin-bottom: 10px;
 }
 
+.skill-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
 .progress-bar {
     background-color: #e0e0e0;
     border-radius: 5px;
     height: 10px;
+    margin-bottom: 15px;
 }
 
 .progress {
     background-color: #4caf50;
     height: 10px;
     border-radius: 5px;
+}
+
+.skill-info {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.skill-info a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.skill-info a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        padding: 20px;
+    }
+    .skill {
+        width: 100%;
+    }
 }

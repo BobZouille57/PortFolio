@@ -13,13 +13,13 @@
     <?php endif; ?>
 
     <form action="send_mail.php" method="POST">
-        <label for="name">Nom</label>
+        <label for="name">Nom d'utilisateur :</label>
         <input type="text" id="name" name="name" required>
         
-        <label for="email">Email</label>
+        <label for="email">Votre email :</label>
         <input type="email" id="email" name="email" required>
 
-        <label for="message">Message</label>
+        <label for="message">Message :</label>
         <textarea id="message" name="message" required></textarea>
 
         <button type="submit" class="btn">Envoyer</button>

@@ -41,7 +41,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     margin: 25px 0;
-    gap: 30px;
+    gap: 20px;
 }
 
 .btn {
@@ -56,19 +56,13 @@ body {
     transition: background-color 0.3s ease, transform 0.2s;
     min-width: 150px;
     text-align: center;
-}
-
-.primary-btn {
-    background-color: #333;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
 
 .btn:hover {
     background-color: #222;
     transform: scale(1.05);
-}
-
-.primary-btn:hover {
-    background-color: #222;
 }
 
 .desc {

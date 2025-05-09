@@ -26,7 +26,7 @@
 
 .skill-title {
     font-size: 1.8rem;
-    color: #4CAF50;
+    color: #333;
     margin-bottom: 15px;
     font-weight: 600;
     text-transform: uppercase;
@@ -47,7 +47,7 @@
 }
 
 .skill-details li:hover {
-    color: #4CAF50;
+    color: #222;
     transform: translateX(5px);
 }
 

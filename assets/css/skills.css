@@ -47,7 +47,7 @@
 }
 
 .skill-details li:hover {
-    color: #222;
+    color: #000000;
     transform: translateX(5px);
 }
 

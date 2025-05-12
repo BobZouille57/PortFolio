@@ -94,7 +94,6 @@
 .pdf-container {
     max-width: 900px;
     margin: 50px auto;
-    padding: 20px;
     text-align: center;
     animation: fadeIn 1s ease-in-out;
 }

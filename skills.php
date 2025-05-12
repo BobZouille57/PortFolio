@@ -52,7 +52,7 @@
             </ul>
         </div>
     </div>
-    <br><br>
+    <br><br><br><br>
     <h3>Tableau de compétences :</h3>
     <div class="pdf-container">
         <p class="pdf-subtitle">Cliquez sur le bouton ci-dessous pour afficher ou masquer le tableau de mes compétences en PDF.</p>

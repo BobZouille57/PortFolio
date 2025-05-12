@@ -52,6 +52,29 @@
             </ul>
         </div>
     </div>
+    <h3>Tableau Excel (CSV)</h3>
+    <div class="excel-table">
+        <?php
+        $file = 'assets/csv/Competences.csv';
+
+        if (($handle = fopen($file, 'r')) !== FALSE) {
+            echo '<table border="1">';
+            
+            while (($data = fgetcsv($handle, 1000, ',')) !== FALSE) {
+                echo '<tr>';
+                foreach ($data as $cell) {
+                    echo '<td>' . htmlspecialchars($cell) . '</td>';
+                }
+                echo '</tr>';
+            }
+            echo '</table>';
+
+            fclose($handle);
+        } else {
+            echo 'Impossible de lire le fichier CSV.';
+        }
+        ?>
+    </div>
 </div>
 
 <?php include('includes/footer.php'); ?>

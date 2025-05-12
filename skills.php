@@ -63,7 +63,7 @@
         </div>
 
         <a href="assets/pdf/Competences.pdf" class="btn-download" download>
-            ⬇️ Télécharger le PDF du tableau
+            ⬇️ Télécharger le PDF des Compétences
         </a>
     </div>
 </div>

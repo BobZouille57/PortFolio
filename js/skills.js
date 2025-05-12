@@ -4,17 +4,16 @@ $(document).ready(function () {
     });
 });
 
-document.getElementById("toggle-pdf").addEventListener("click", function() {
-    var viewer = document.querySelector(".pdf-viewer");
-    var btn = document.getElementById("toggle-pdf");
+$(document).ready(function () {
+    $("#toggle-pdf").click(function () {
+        $(".pdf-viewer").slideToggle(400);
+    });
 
-    if (viewer.style.display === "none") {
-        viewer.style.display = "block";
-        btn.textContent = "👁️ Masquer le PDF des Compétences";
-    } else {
-        viewer.style.display = "none";
-        btn.textContent = "👁️ Afficher / Masquer le PDF des Compétences";
-    }
+    $(".btn-download").hover(function () {
+        $(this).css("transform", "scale(1.05)");
+    }, function () {
+        $(this).css("transform", "scale(1)");
+    });
 });
 
 

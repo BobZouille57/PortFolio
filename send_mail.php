@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->addReplyTo($user_email, $user_name);
         $mail->addAddress('Pierron.clement57@gmail.com');
 
-        $mail->Subject = '📬 Nouveau message via le portfolio';
+        $mail->Subject = 'Nouveau message via le portfolio';
         $mail->Body    = "Nom : $user_name\nEmail : $user_email\n\nMessage :\n$user_message";
 
         $mail->send();

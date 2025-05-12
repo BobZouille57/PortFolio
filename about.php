@@ -30,6 +30,10 @@
                 <div class="year">2023 - 2025</div>
                 <div class="school">BTS SIO (SLAM) - Campus MEWO, METZ</div>
             </div>
+            <div class="timeline-item reveal">
+                <div class="year">09/2024 - 02/2025</div>
+                <div class="school">STAGE Développeur WEB - MY.AND.COMMUNITY</div>
+            </div>
         </div>
     </div>
 

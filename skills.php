@@ -52,28 +52,19 @@
             </ul>
         </div>
     </div>
-    <h3>Tableau Excel (CSV)</h3>
-    <div class="excel-table">
-        <?php
-        $file = 'assets/csv/Competences.csv';
+    <h3>Tableau de compétences :</h3>
+    <div class="pdf-container">
+        <p class="pdf-subtitle">Cliquez sur le bouton ci-dessous pour afficher ou masquer le tableau de mes compétences en PDF.</p>
 
-        if (($handle = fopen($file, 'r')) !== FALSE) {
-            echo '<table border="1">';
-            
-            while (($data = fgetcsv($handle, 1000, ',')) !== FALSE) {
-                echo '<tr>';
-                foreach ($data as $cell) {
-                    echo '<td>' . htmlspecialchars($cell) . '</td>';
-                }
-                echo '</tr>';
-            }
-            echo '</table>';
+        <button id="toggle-pdf" class="btn-toggle">👁️ Afficher / Masquer le PDF des Compétences</button>
 
-            fclose($handle);
-        } else {
-            echo 'Impossible de lire le fichier CSV.';
-        }
-        ?>
+        <div class="pdf-viewer" style="display: none;">
+            <iframe src="assets/pdf/Competences.pdf" frameborder="0" width="100%" height="600px"></iframe>
+        </div>
+
+        <a href="assets/pdf/Competences.pdf" class="btn-download" download>
+            ⬇️ Télécharger le PDF du tableau
+        </a>
     </div>
 </div>
 
